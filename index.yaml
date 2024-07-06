@@ -3,9 +3,9 @@ entries:
   bento:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-06T19:37:28.460753977+02:00"
+    created: "2024-07-06T20:01:40.940150874+02:00"
     description: A Helm chart for Kubernetes
-    digest: d304d746abd92bc4f0ec1e17fb7db675849e10ab146879181fb2c2c1f3724776
+    digest: fc94936442ba6762d8abdef4c7ddd50921f7fd22dfae280c721165cf6b623725
     name: bento
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-06T19:37:28.459950764+02:00"
+    created: "2024-07-06T20:01:40.93812403+02:00"
     description: A Helm chart for Kubernetes
     digest: 737ca91bffe252260a45dad93aa980c814305da14c8a2d3a882d7d59469feafa
     name: bento
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/bento/bento-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-06T19:37:28.458892037+02:00"
+generated: "2024-07-06T20:01:40.937211961+02:00"
