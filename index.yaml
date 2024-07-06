@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  bento:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-06T19:21:27.511803112+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 737ca91bffe252260a45dad93aa980c814305da14c8a2d3a882d7d59469feafa
+    name: bento
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/bento/bento-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-06T19:21:27.51131317+02:00"
