@@ -24,7 +24,7 @@ fi
 
 helm package ./$app_name
 
-helm repo index --url $repo_url
+helm repo index --url $repo_url ./
 
 # Add the new Helm chart to Git
 git add "$app_name"
