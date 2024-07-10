@@ -22,7 +22,11 @@ else
   exit 1
 fi
 
-helm package ./$app_name
+cd $app_name
+
+helm package ./$app_name 
+
+cd ./../
 
 helm repo index --url $repo_url ./
 
