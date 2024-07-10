@@ -1,5 +1,7 @@
 #!/bin/bash
 
+repo_url="https://reinoudb.github.io/charts"
+
 # Prompt the user for the application name
 read -p "Enter application name (e.g., jellyfin): " app_name
 
@@ -19,6 +21,10 @@ else
   echo "Error: $values_file not found!"
   exit 1
 fi
+
+helm package ./$app_name
+
+helm repo index --url $repo_url
 
 # Add the new Helm chart to Git
 git add "$app_name"
