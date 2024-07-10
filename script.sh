@@ -39,6 +39,8 @@ git add .
 # Commit the changes with a message including the application name and Docker image
 git commit -m "Added Helm chart for $app_name using Docker image $docker_image"
 
+git push
+
 # Inform the user that the process is complete
 echo "Helm chart for $app_name created, packaged, and committed to Git with Docker image $docker_image."
 
