@@ -17,6 +17,7 @@ values_file="$app_name/values.yaml"
 if [[ -f "$values_file" ]]; then
   # Use sed to update the repository value in the values.yaml file
   sed -i "s|repository: .*|repository: $docker_image|" "$values_file"
+  sed -i "s|tag: .*|tag: latest|" "$values_file"
 else
   echo "Error: $values_file not found!"
   exit 1
