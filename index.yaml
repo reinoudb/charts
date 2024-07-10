@@ -3,7 +3,7 @@ entries:
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T11:13:29.801915604+02:00"
+    created: "2024-07-10T12:28:46.94988469+02:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
@@ -14,12 +14,12 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T11:13:29.800654579+02:00"
+    created: "2024-07-10T12:28:46.950586837+02:00"
     description: A Helm chart for Kubernetes
-    digest: 07a8e86e185507da51517bc74dfa1127c79a25ea9471b571a67dc1427625cbed
+    digest: cedd1c6ae5596524a05b7412340150680d06f2046460a01f4bb1b97818c40c82
     name: jellyfin
     type: application
     urls:
-    - https://reinoudb.github.io/charts/jellyfin-0.1.0.tgz
+    - https://reinoudb.github.io/charts/jellyfin/jellyfin-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-10T11:13:29.800081509+02:00"
+generated: "2024-07-10T12:28:46.948783002+02:00"

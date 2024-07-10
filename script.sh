@@ -22,20 +22,22 @@ else
   exit 1
 fi
 
-cd $app_name
+cd "$app_name"
 
-helm package ./$app_name 
+# Package the Helm chart
+helm package .
 
-cd ./../
+cd ..
 
-helm repo index --url $repo_url ./
+# Update the Helm repo index
+helm repo index --url "$repo_url" .
 
-# Add the new Helm chart to Git
-git add "$app_name"
+# Add the new Helm chart and package to Git
+git add .
 
 # Commit the changes with a message including the application name and Docker image
 git commit -m "Added Helm chart for $app_name using Docker image $docker_image"
 
 # Inform the user that the process is complete
-echo "Helm chart for $app_name created and committed to Git with Docker image $docker_image."
+echo "Helm chart for $app_name created, packaged, and committed to Git with Docker image $docker_image."
 
