@@ -3,7 +3,7 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T12:32:37.172093533+02:00"
+    created: "2024-07-10T12:33:07.905812949+02:00"
     description: A Helm chart for Kubernetes
     digest: dab5959bd1370134afd8aa63bad9603b8fa53a8d7e7d5584ffd69df5f3915169
     name: bazarr
@@ -14,7 +14,7 @@ entries:
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T12:32:37.172775849+02:00"
+    created: "2024-07-10T12:33:07.906641252+02:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
@@ -22,10 +22,21 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.0.tgz
     version: 0.1.0
+  flaresolverr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-10T12:33:07.907375657+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ab276f7109111e4ed58daa66092feb67d70fad6c07693dd36b2227b37d12b442
+    name: flaresolverr
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/flaresolverr/flaresolverr-0.1.0.tgz
+    version: 0.1.0
   jackett:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T12:32:37.173183027+02:00"
+    created: "2024-07-10T12:33:07.908088328+02:00"
     description: A Helm chart for Kubernetes
     digest: 5ac85d914a86fe9883e1aed59a696d4215500ebb55918ffb7ae968e0d3ac2baf
     name: jackett
@@ -36,7 +47,7 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T12:32:37.173634998+02:00"
+    created: "2024-07-10T12:33:07.908847075+02:00"
     description: A Helm chart for Kubernetes
     digest: 74e5242978c974ba9aa0cf592c994958589e4939185d94cbe4741138e06d5ece
     name: jellyfin
@@ -47,7 +58,7 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T12:32:37.174001867+02:00"
+    created: "2024-07-10T12:33:07.909472609+02:00"
     description: A Helm chart for Kubernetes
     digest: 28735ac4a2abc898efada4ffa760fef0fb001ffae63172095cb61189b0b40719
     name: radarr
@@ -58,7 +69,7 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-10T12:32:37.174382201+02:00"
+    created: "2024-07-10T12:33:07.910105543+02:00"
     description: A Helm chart for Kubernetes
     digest: a267c94bd66ff84c4b84cc1439b8d087d51cf37df3c5e4d2feb10f5189f23576
     name: sonarr
@@ -66,4 +77,4 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/sonarr/sonarr-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-10T12:32:37.171274274+02:00"
+generated: "2024-07-10T12:33:07.904850912+02:00"
