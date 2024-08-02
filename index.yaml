@@ -3,7 +3,7 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.551383894+02:00"
+    created: "2024-08-02T10:57:43.490456925+02:00"
     description: A Helm chart for Kubernetes
     digest: dab5959bd1370134afd8aa63bad9603b8fa53a8d7e7d5584ffd69df5f3915169
     name: bazarr
@@ -14,7 +14,7 @@ entries:
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.552248937+02:00"
+    created: "2024-08-02T10:57:43.491342129+02:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
@@ -25,7 +25,7 @@ entries:
   flaresolverr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.552924275+02:00"
+    created: "2024-08-02T10:57:43.492181706+02:00"
     description: A Helm chart for Kubernetes
     digest: ab276f7109111e4ed58daa66092feb67d70fad6c07693dd36b2227b37d12b442
     name: flaresolverr
@@ -36,7 +36,7 @@ entries:
   jackett:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.553586111+02:00"
+    created: "2024-08-02T10:57:43.492935554+02:00"
     description: A Helm chart for Kubernetes
     digest: 5ac85d914a86fe9883e1aed59a696d4215500ebb55918ffb7ae968e0d3ac2baf
     name: jackett
@@ -47,7 +47,7 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.554325304+02:00"
+    created: "2024-08-02T10:57:43.494806612+02:00"
     description: A Helm chart for Kubernetes
     digest: 74e5242978c974ba9aa0cf592c994958589e4939185d94cbe4741138e06d5ece
     name: jellyfin
@@ -58,7 +58,7 @@ entries:
   jellyseerr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.554974169+02:00"
+    created: "2024-08-02T10:57:43.495441607+02:00"
     description: A Helm chart for Kubernetes
     digest: 656794962debfdbc2f4b0fd8d18bdde3523696b4e99684bc288381d12ffda027
     name: jellyseerr
@@ -69,7 +69,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.555717908+02:00"
+    created: "2024-08-02T10:57:43.496025797+02:00"
     description: A Helm chart for Kubernetes
     digest: eea86c8c33c2ece16939f5ccd969755f0702b02d0c24437478c1377d9ea0a7a4
     name: nginx
@@ -80,7 +80,7 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.55640653+02:00"
+    created: "2024-08-02T10:57:43.496602939+02:00"
     description: A Helm chart for Kubernetes
     digest: 28735ac4a2abc898efada4ffa760fef0fb001ffae63172095cb61189b0b40719
     name: radarr
@@ -88,21 +88,21 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/radarr/radarr-0.1.0.tgz
     version: 0.1.0
-  restic:
+  restic-server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.557018+02:00"
+    created: "2024-08-02T10:57:43.497160954+02:00"
     description: A Helm chart for Kubernetes
-    digest: 0264759e758de96fc3c4a1d63988697a90cc277bd43510c327ccabe6e3d73d6f
-    name: restic
+    digest: 7300ff98f31f31fe8de304d508a806d88f579ae94b1d2277b36cd592b75a47d4
+    name: restic-server
     type: application
     urls:
-    - https://reinoudb.github.io/charts/restic/restic-0.1.0.tgz
+    - https://reinoudb.github.io/charts/restic-server/restic-server-0.1.0.tgz
     version: 0.1.0
   searxng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.557615517+02:00"
+    created: "2024-08-02T10:57:43.497703678+02:00"
     description: A Helm chart for Kubernetes
     digest: b4f90a8610fcd1cafd45166432687b6a0e5f2823f851891e6e427fcfcf143b34
     name: searxng
@@ -113,7 +113,7 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-02T10:32:01.558260903+02:00"
+    created: "2024-08-02T10:57:43.498256931+02:00"
     description: A Helm chart for Kubernetes
     digest: a267c94bd66ff84c4b84cc1439b8d087d51cf37df3c5e4d2feb10f5189f23576
     name: sonarr
@@ -121,4 +121,4 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/sonarr/sonarr-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-02T10:32:01.550341986+02:00"
+generated: "2024-08-02T10:57:43.489451226+02:00"
