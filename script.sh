@@ -28,6 +28,10 @@ cd "$app_name"
 # Package the Helm chart
 helm package .
 
+# helm repo add charts https://forgejo.reinoud.cloud/api/packages/reinoud/helm
+
+helm cm-push ./*.tgz charts
+
 cd ..
 
 # Update the Helm repo index
