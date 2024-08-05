@@ -28,8 +28,6 @@ cd "$app_name"
 # Package the Helm chart
 helm package .
 
-# helm repo add charts https://forgejo.reinoud.cloud/api/packages/reinoud/helm
-
 cd ..
 
 # Update the Helm repo index
@@ -45,4 +43,3 @@ git push
 
 # Inform the user that the process is complete
 echo "Helm chart for $app_name created, packaged, and committed to Git with Docker image $docker_image."
-
