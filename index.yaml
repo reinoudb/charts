@@ -3,164 +3,274 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.64607256+02:00"
+    created: "2024-08-07T14:41:53.146453494+02:00"
     description: A Helm chart for Kubernetes
-    digest: dc847ddc2705b8154433c8162361ef1750048936d7e90ae6e96797acfdeef737
+    digest: 560d4f146ef0fb6932469254da7eb0cc6f046c6d2f5955e7b48868d367df41bc
     name: bazarr
     type: application
     urls:
-    - bazarr/bazarr-0.1.1.tgz
+    - https://reinoudb.github.io/charts/bazarr/bazarr-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.645184054+02:00"
+    created: "2024-08-07T14:41:53.145258257+02:00"
     description: A Helm chart for Kubernetes
     digest: 38507250e75a13b905bec9adde8d57504ddb5aeb2538ee2ad98bc5bad405af67
     name: bazarr
     type: application
     urls:
-    - bazarr/bazarr-0.1.0.tgz
+    - https://reinoudb.github.io/charts/bazarr/bazarr-0.1.0.tgz
     version: 0.1.0
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.646918391+02:00"
+    created: "2024-08-07T14:41:53.148214553+02:00"
+    description: A Helm chart for Kubernetes
+    digest: a7ac1271065d5c92f151509265fbdba61b2b289307353faf9318855ed980bedb
+    name: bento-next
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.147281174+02:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
     type: application
     urls:
-    - bento-next/bento-next-0.1.0.tgz
+    - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.0.tgz
     version: 0.1.0
   flaresolverr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.647690355+02:00"
+    created: "2024-08-07T14:41:53.149586696+02:00"
+    description: A Helm chart for Kubernetes
+    digest: bbdc9ad0f2e6297127d633e31ff2c581dc6de230d20e1e2ec441226ecc34d09c
+    name: flaresolverr
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/flaresolverr/flaresolverr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.148850267+02:00"
     description: A Helm chart for Kubernetes
     digest: ab276f7109111e4ed58daa66092feb67d70fad6c07693dd36b2227b37d12b442
     name: flaresolverr
     type: application
     urls:
-    - flaresolverr/flaresolverr-0.1.0.tgz
+    - https://reinoudb.github.io/charts/flaresolverr/flaresolverr-0.1.0.tgz
     version: 0.1.0
   jackett:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.648356559+02:00"
+    created: "2024-08-07T14:41:53.150902363+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 18b633195681c578d3f839f0319c757e734e358d96c3408f42301bd4b2746375
+    name: jackett
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/jackett/jackett-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.150198122+02:00"
     description: A Helm chart for Kubernetes
     digest: 5ac85d914a86fe9883e1aed59a696d4215500ebb55918ffb7ae968e0d3ac2baf
     name: jackett
     type: application
     urls:
-    - jackett/jackett-0.1.0.tgz
+    - https://reinoudb.github.io/charts/jackett/jackett-0.1.0.tgz
     version: 0.1.0
   jellyfin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.649130719+02:00"
+    created: "2024-08-07T14:41:53.152499563+02:00"
+    description: A Helm chart for Kubernetes
+    digest: f207768b2028211944c7c2b92b31aa00ec5470cce65504f7602162722306010e
+    name: jellyfin
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/jellyfin/jellyfin-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.151673983+02:00"
     description: A Helm chart for Kubernetes
     digest: 74e5242978c974ba9aa0cf592c994958589e4939185d94cbe4741138e06d5ece
     name: jellyfin
     type: application
     urls:
-    - jellyfin/jellyfin-0.1.0.tgz
+    - https://reinoudb.github.io/charts/jellyfin/jellyfin-0.1.0.tgz
     version: 0.1.0
   jellyseerr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.649788809+02:00"
+    created: "2024-08-07T14:41:53.153897866+02:00"
+    description: A Helm chart for Kubernetes
+    digest: a77e547f081a06a62b723bc2694be88078cf2295eeb9218c926a04eaa4696796
+    name: jellyseerr
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/jellyseerr/jellyseerr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.153117387+02:00"
     description: A Helm chart for Kubernetes
     digest: 656794962debfdbc2f4b0fd8d18bdde3523696b4e99684bc288381d12ffda027
     name: jellyseerr
     type: application
     urls:
-    - jellyseerr/jellyseerr-0.1.0.tgz
+    - https://reinoudb.github.io/charts/jellyseerr/jellyseerr-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-08-07T12:43:03.651196112+02:00"
+    created: "2024-08-07T14:41:53.15666106+02:00"
     description: A Helm chart for Kubernetes
-    digest: 99d19009bbcb6128786f3525122f23d806d1b9bead76d48f346927e52a4e88a9
+    digest: d2b3f0726e9d926c205d0dc18e489e0fe44e1fb07217341e440af0981f42b78d
     name: nginx
     type: application
     urls:
-    - nginx/nginx-0.1.1.tgz
+    - https://reinoudb.github.io/charts/nginx/nginx-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.650485988+02:00"
+    created: "2024-08-07T14:41:53.155637619+02:00"
     description: A Helm chart for Kubernetes
     digest: eea86c8c33c2ece16939f5ccd969755f0702b02d0c24437478c1377d9ea0a7a4
     name: nginx
     type: application
     urls:
-    - nginx/nginx-0.1.0.tgz
+    - https://reinoudb.github.io/charts/nginx/nginx-0.1.0.tgz
     version: 0.1.0
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.651764669+02:00"
+    created: "2024-08-07T14:41:53.158101612+02:00"
+    description: A Helm chart for Kubernetes
+    digest: bd8eef43cec12c40f4e1d5ae95aed1b34195731b44e9c0ae713bcc42210c7a82
+    name: radarr
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/radarr/radarr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.157362078+02:00"
     description: A Helm chart for Kubernetes
     digest: 28735ac4a2abc898efada4ffa760fef0fb001ffae63172095cb61189b0b40719
     name: radarr
     type: application
     urls:
-    - radarr/radarr-0.1.0.tgz
+    - https://reinoudb.github.io/charts/radarr/radarr-0.1.0.tgz
     version: 0.1.0
   restic-server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.652427748+02:00"
+    created: "2024-08-07T14:41:53.159614255+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 30252c3b947257189493e968fa2df1810b0f1658f6ffe2419c670ca8036652f7
+    name: restic-server
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/restic-server/restic-server-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.158812203+02:00"
     description: A Helm chart for Kubernetes
     digest: 54ae8208fc0f6bf444eecdf064fbda439ab04766186a68a501a0cd1ec4146bfb
     name: restic-server
     type: application
     urls:
-    - restic-server/restic-server-0.1.0.tgz
+    - https://reinoudb.github.io/charts/restic-server/restic-server-0.1.0.tgz
     version: 0.1.0
   searxng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.652963148+02:00"
+    created: "2024-08-07T14:41:53.160947782+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 6972f69c313ee54aabbbd7ca3ff6c030250e885adae0c93fcbeb0807516f43b7
+    name: searxng
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/searxng/searxng-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.160241752+02:00"
     description: A Helm chart for Kubernetes
     digest: b4f90a8610fcd1cafd45166432687b6a0e5f2823f851891e6e427fcfcf143b34
     name: searxng
     type: application
     urls:
-    - searxng/searxng-0.1.0.tgz
+    - https://reinoudb.github.io/charts/searxng/searxng-0.1.0.tgz
     version: 0.1.0
   sonarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.653496026+02:00"
+    created: "2024-08-07T14:41:53.162288099+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ea58c08854f0787c6dba22ec951594ebddf4989e5c18ceb18d9d1908af08e01f
+    name: sonarr
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/sonarr/sonarr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.161565012+02:00"
     description: A Helm chart for Kubernetes
     digest: a267c94bd66ff84c4b84cc1439b8d087d51cf37df3c5e4d2feb10f5189f23576
     name: sonarr
     type: application
     urls:
-    - sonarr/sonarr-0.1.0.tgz
+    - https://reinoudb.github.io/charts/sonarr/sonarr-0.1.0.tgz
     version: 0.1.0
   tree-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.654026122+02:00"
+    created: "2024-08-07T14:41:53.163587822+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ba7101a970f032130087d670986d4f568588ae7c0a562e3a7e299f7f4a691036
+    name: tree-app
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.16288049+02:00"
     description: A Helm chart for Kubernetes
     digest: be06af9bdfd38f7b87ad37a7e374707a0a2d8598a6acf6b7cdc2ee77a516b096
     name: tree-app
     type: application
     urls:
-    - tree-app/tree-app-0.1.0.tgz
+    - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.0.tgz
     version: 0.1.0
   vaultwarden:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T12:43:03.654578089+02:00"
+    created: "2024-08-07T14:41:53.164893576+02:00"
+    description: A Helm chart for Kubernetes
+    digest: edf79015b295073b60e09e15e703015205e0263704c142444535369d4604e046
+    name: vaultwarden
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/vaultwarden/vaultwarden-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T14:41:53.164184778+02:00"
     description: A Helm chart for Kubernetes
     digest: 8b2af721f5d2582aa2275bb58446ae3d2740f4ad131b8c3d6842f59e6fc175f1
     name: vaultwarden
     type: application
     urls:
-    - vaultwarden/vaultwarden-0.1.0.tgz
+    - https://reinoudb.github.io/charts/vaultwarden/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-07T12:43:03.644117067+02:00"
+generated: "2024-08-07T14:41:53.144206856+02:00"
