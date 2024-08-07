@@ -43,7 +43,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 25565
 
 ingress:
@@ -74,12 +74,12 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
-    readinessProbe:
-      tcpSocket:
-        port: 25565
-    livenessProbe:
-      tcpSocket:
-        port: 25565
+readinessProbe:
+  tcpSocket:
+    port: 25565
+livenessProbe:
+  tcpSocket:
+    port: 25565
 
 autoscaling:
   enabled: false
