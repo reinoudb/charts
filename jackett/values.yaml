@@ -58,7 +58,7 @@ config:
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8191
 
 ingress:
   enabled: false
