@@ -3,9 +3,19 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.162678115+02:00"
+    created: "2024-08-07T12:40:40.155763445+02:00"
     description: A Helm chart for Kubernetes
-    digest: dab5959bd1370134afd8aa63bad9603b8fa53a8d7e7d5584ffd69df5f3915169
+    digest: dc847ddc2705b8154433c8162361ef1750048936d7e90ae6e96797acfdeef737
+    name: bazarr
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/bazarr/bazarr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T12:40:40.154977525+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 38507250e75a13b905bec9adde8d57504ddb5aeb2538ee2ad98bc5bad405af67
     name: bazarr
     type: application
     urls:
@@ -14,7 +24,7 @@ entries:
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.163174557+02:00"
+    created: "2024-08-07T12:40:40.1565035+02:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
@@ -25,7 +35,7 @@ entries:
   flaresolverr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.163598924+02:00"
+    created: "2024-08-07T12:40:40.157437138+02:00"
     description: A Helm chart for Kubernetes
     digest: ab276f7109111e4ed58daa66092feb67d70fad6c07693dd36b2227b37d12b442
     name: flaresolverr
@@ -36,7 +46,7 @@ entries:
   jackett:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.164647391+02:00"
+    created: "2024-08-07T12:40:40.158354659+02:00"
     description: A Helm chart for Kubernetes
     digest: 5ac85d914a86fe9883e1aed59a696d4215500ebb55918ffb7ae968e0d3ac2baf
     name: jackett
@@ -47,7 +57,7 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.165483601+02:00"
+    created: "2024-08-07T12:40:40.159296003+02:00"
     description: A Helm chart for Kubernetes
     digest: 74e5242978c974ba9aa0cf592c994958589e4939185d94cbe4741138e06d5ece
     name: jellyfin
@@ -58,7 +68,7 @@ entries:
   jellyseerr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.165964734+02:00"
+    created: "2024-08-07T12:40:40.160089867+02:00"
     description: A Helm chart for Kubernetes
     digest: 656794962debfdbc2f4b0fd8d18bdde3523696b4e99684bc288381d12ffda027
     name: jellyseerr
@@ -66,21 +76,10 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/jellyseerr/jellyseerr-0.1.0.tgz
     version: 0.1.0
-  kopia:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.166435701+02:00"
-    description: A Helm chart for Kubernetes
-    digest: b3abcdbe1b67859758eab9ad9fd7acb3443715b3a3a8a68fb93ceaa2f3a5c083
-    name: kopia
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/kopia/kopia-0.1.0.tgz
-    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.166851171+02:00"
+    created: "2024-08-07T12:40:40.160916082+02:00"
     description: A Helm chart for Kubernetes
     digest: eea86c8c33c2ece16939f5ccd969755f0702b02d0c24437478c1377d9ea0a7a4
     name: nginx
@@ -88,21 +87,10 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/nginx/nginx-0.1.0.tgz
     version: 0.1.0
-  prometheus-immich-exporter:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.167238926+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 43b5e38a511087088d4b608efc0ad72b6feff9c7d3d399600b18da2fb36cab68
-    name: prometheus-immich-exporter
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/prometheus-immich-exporter/prometheus-immich-exporter-0.1.0.tgz
-    version: 0.1.0
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.167643547+02:00"
+    created: "2024-08-07T12:40:40.161609892+02:00"
     description: A Helm chart for Kubernetes
     digest: 28735ac4a2abc898efada4ffa760fef0fb001ffae63172095cb61189b0b40719
     name: radarr
@@ -113,7 +101,7 @@ entries:
   restic-server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.168087523+02:00"
+    created: "2024-08-07T12:40:40.162443574+02:00"
     description: A Helm chart for Kubernetes
     digest: 54ae8208fc0f6bf444eecdf064fbda439ab04766186a68a501a0cd1ec4146bfb
     name: restic-server
@@ -124,7 +112,7 @@ entries:
   searxng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.168458392+02:00"
+    created: "2024-08-07T12:40:40.16319758+02:00"
     description: A Helm chart for Kubernetes
     digest: b4f90a8610fcd1cafd45166432687b6a0e5f2823f851891e6e427fcfcf143b34
     name: searxng
@@ -135,7 +123,7 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.168818405+02:00"
+    created: "2024-08-07T12:40:40.163967482+02:00"
     description: A Helm chart for Kubernetes
     digest: a267c94bd66ff84c4b84cc1439b8d087d51cf37df3c5e4d2feb10f5189f23576
     name: sonarr
@@ -146,7 +134,7 @@ entries:
   tree-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.169196227+02:00"
+    created: "2024-08-07T12:40:40.16626132+02:00"
     description: A Helm chart for Kubernetes
     digest: be06af9bdfd38f7b87ad37a7e374707a0a2d8598a6acf6b7cdc2ee77a516b096
     name: tree-app
@@ -154,21 +142,10 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.0.tgz
     version: 0.1.0
-  urbackup:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.169543698+02:00"
-    description: A Helm chart for Kubernetes
-    digest: da6c6a2f27d7a2527d5b1e322e02eca02b10236e92ebb0bd7f3a69bf807c5378
-    name: urbackup
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/urbackup/urbackup-0.1.0.tgz
-    version: 0.1.0
   vaultwarden:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-06T11:24:22.16990921+02:00"
+    created: "2024-08-07T12:40:40.166971452+02:00"
     description: A Helm chart for Kubernetes
     digest: 8b2af721f5d2582aa2275bb58446ae3d2740f4ad131b8c3d6842f59e6fc175f1
     name: vaultwarden
@@ -176,4 +153,4 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/vaultwarden/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-06T11:24:22.162067436+02:00"
+generated: "2024-08-07T12:40:40.153970437+02:00"
