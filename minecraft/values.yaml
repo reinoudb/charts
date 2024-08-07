@@ -74,14 +74,12 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
-livenessProbe:
-  httpGet:
-    path: /
-    port: http
-readinessProbe:
-  httpGet:
-    path: /
-    port: http
+    readinessProbe:
+      tcpSocket:
+        port: 25565
+    livenessProbe:
+      tcpSocket:
+        port: 25565
 
 autoscaling:
   enabled: false
