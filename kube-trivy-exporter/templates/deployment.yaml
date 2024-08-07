@@ -32,6 +32,11 @@ spec:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
         - name: {{ .Chart.Name }}
+          env:
+            - name: KUBERNETES_SERVICE_HOST
+              value: {{ .Values.env.KUBERNETES_SERVICE_HOST }}
+            - name: KUBERNETES_SERVICE_PORT
+              value: {{ .Values.env.KUBERNETES_SERVICE_PORT }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
