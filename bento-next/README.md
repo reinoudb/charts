@@ -27,67 +27,34 @@ To configure Ingress for the Bento-Next application, modify the following parame
 | `ingress.tls.secretName` | Define the secretName of the secret deployed by e.g. cert-manager |
 | `ingress.tls.hosts` | List the hostnames which can use the tls secret |
 
-Example configuration:
+For more information, visit: [Kubernetes Ingress Documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/).
 
-```yaml
-ingress:
-  enabled: true
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-  hosts:
-    - host: example.com
-      paths:
-        - /
-  tls:
-    - secretName: example-tls
-      hosts:
-        - example.com
+### service
 
-service
-To configure the Service for the Bento-Next application, modify the following parameters:
+To configure a `ClusterIP` service for the Bento-Next application, modify the following parameters:
 
-Option	Description
-service.type	Specifies the type of Service. Options: ClusterIP, NodePort, LoadBalancer. Default: ClusterIP.
-service.port	The port that the Service will expose. Default: 80.
-service.targetPort	The port on the container that the Service should forward traffic to. Default: 80.
-service.annotations	Annotations for the Service. Default: {}.
-Example configuration:
+| Option | Description |
+|--------|-------------|
+| `service.type` | Specifies the type of the service. Set to `ClusterIP` for internal-only access. Default: `ClusterIP`. |
+| `service.port` | Defines the port that the service will expose. Default: `80`. |
+| `service.targetPort` | The port on the container that the service should forward traffic to. Default: `80`. |
+| `service.clusterIP` | Specify a static IP address for the service. If not specified, a random IP is assigned. Default: `""`. |
+| `service.selector` | Define the labels used to select the pods that the service should route traffic to. Default: `{}`. |
 
-yaml
-Copy code
-service:
-  type: LoadBalancer
-  port: 80
-  targetPort: 80
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: nlb
-volumes
+For more information, visit: [Kubernetes Service Documentation](https://kubernetes.io/docs/concepts/services-networking/service/).
+
+### volumes
+
 To configure volumes for the Bento-Next application, modify the following parameters:
 
-Option	Description
-volumes	List of volumes to attach to the pods. Default: [].
-Example configuration:
+| Option | Description |
+|--------|-------------|
+| `volumes` | List of volumes to attach to the pod. Each volume can have different sources such as ConfigMaps, Secrets, PersistentVolumeClaims, etc. Default: `[]`. |
 
-yaml
-Copy code
-volumes:
-  - name: my-volume
-    emptyDir: {}
-volumeMounts
-To configure volume mounts for the Bento-Next application, modify the following parameters:
+### volumesMounts
 
-Option	Description
-volumeMounts	List of volume mounts for the application containers. Default: [].
-Example configuration:
+To configure volumesMounts for the Bento-Next application, modify the following parameters:
 
-yaml
-Copy code
-volumeMounts:
-  - name: my-volume
-    mountPath: /data
-For more details on how to customize the configuration, refer to the Helm documentation and the Kubernetes API reference.
-
-csharp
-Copy code
-
-You can copy and paste this text into your `README.md` file, and adjust
+| Option | Description |
+|--------|-------------|
+| `volumesMounts` | List of volume mounts to attach to the container. Each volume mount specifies where a volume should be mounted inside the container. Default: [].|
