@@ -4,6 +4,9 @@
 
 replicaCount: 1
 
+env:
+  TZ: "Europe/Paris"
+
 image:
   repository: itzg/minecraft-server
   pullPolicy: IfNotPresent
@@ -41,7 +44,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 25565
 
 ingress:
   enabled: false

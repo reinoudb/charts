@@ -3,9 +3,9 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.514695327+02:00"
+    created: "2024-08-07T17:04:48.665086043+02:00"
     description: A Helm chart for Kubernetes
-    digest: 889f47b36399a7055c903805bf81eb15a25f62b2308efb27d1e1852401614d94
+    digest: d8ff54095cc3908fb2cf0ffd97a5f97f639e89124a44861e66d4a59fca4d2c03
     name: bazarr
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.510476051+02:00"
+    created: "2024-08-07T17:04:48.662219998+02:00"
     description: A Helm chart for Kubernetes
     digest: ecdc3b07e09524d98b524bb27d47b60b6728309a1f44603b23395fbe94df6e75
     name: bazarr
@@ -23,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.508627032+02:00"
+    created: "2024-08-07T17:04:48.660696238+02:00"
     description: A Helm chart for Kubernetes
     digest: ea758e7e94870e1b66b7df758ee63528dcbee1abdb856533c906dc3e44262447
     name: bazarr
@@ -33,7 +33,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.50708126+02:00"
+    created: "2024-08-07T17:04:48.659456558+02:00"
     description: A Helm chart for Kubernetes
     digest: 560d4f146ef0fb6932469254da7eb0cc6f046c6d2f5955e7b48868d367df41bc
     name: bazarr
@@ -43,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.506150593+02:00"
+    created: "2024-08-07T17:04:48.65865309+02:00"
     description: A Helm chart for Kubernetes
     digest: 38507250e75a13b905bec9adde8d57504ddb5aeb2538ee2ad98bc5bad405af67
     name: bazarr
@@ -54,9 +54,9 @@ entries:
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.521212425+02:00"
+    created: "2024-08-07T17:04:48.668364702+02:00"
     description: A Helm chart for Kubernetes
-    digest: 45a990c74aa097db9be10c2ecf9b0b3086691ccc1c51bd074e40a17a562a0c05
+    digest: a1082774138501d142e8068b97b138788c0a1b59770d79f3bcfe9afe90cb7037
     name: bento-next
     type: application
     urls:
@@ -64,7 +64,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.51846264+02:00"
+    created: "2024-08-07T17:04:48.666889853+02:00"
     description: A Helm chart for Kubernetes
     digest: aa1bba409253c637670468daddae2caabc4a7ad78d067f2840e581e8d7c743fa
     name: bento-next
@@ -74,7 +74,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.516927823+02:00"
+    created: "2024-08-07T17:04:48.666206761+02:00"
     description: A Helm chart for Kubernetes
     digest: c010367348e91a22590d8aaf76549af4a1420cf425576863e5c660cbf866c551
     name: bento-next
@@ -84,7 +84,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.515617039+02:00"
+    created: "2024-08-07T17:04:48.665559122+02:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
@@ -95,9 +95,9 @@ entries:
   flaresolverr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.526165272+02:00"
+    created: "2024-08-07T17:04:48.671689608+02:00"
     description: A Helm chart for Kubernetes
-    digest: cea805576a07827474a571d78c99edcfa2f4a188f6c924a3732f6cb2f0197738
+    digest: 87c470e42d881ac44dba38825a0b19610525e46dd82630ec158dd5c10b82e906
     name: flaresolverr
     type: application
     urls:
@@ -105,7 +105,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.524516313+02:00"
+    created: "2024-08-07T17:04:48.670262126+02:00"
     description: A Helm chart for Kubernetes
     digest: d8a4d11d78f3c4597d201a5bd4f6d994c04fb248d7a0cb042b464fc142c0e57e
     name: flaresolverr
@@ -115,7 +115,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.523335271+02:00"
+    created: "2024-08-07T17:04:48.669452122+02:00"
     description: A Helm chart for Kubernetes
     digest: c45c0fd73844e612202a8a9f835fdd35f8a9dd52b406da83049056ee5944356b
     name: flaresolverr
@@ -125,7 +125,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.521972315+02:00"
+    created: "2024-08-07T17:04:48.668758113+02:00"
     description: A Helm chart for Kubernetes
     digest: ab276f7109111e4ed58daa66092feb67d70fad6c07693dd36b2227b37d12b442
     name: flaresolverr
@@ -136,9 +136,9 @@ entries:
   jackett:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.534223995+02:00"
+    created: "2024-08-07T17:04:48.678053049+02:00"
     description: A Helm chart for Kubernetes
-    digest: 253c2f11580318af998f5c167b0af8f332a5d74bc9fe864bcdb3f42f30a1d777
+    digest: c0364ca7594fb86090445cdb91e9cdcdcb244807a26369475e090ecfd10bd81a
     name: jackett
     type: application
     urls:
@@ -146,7 +146,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.531081531+02:00"
+    created: "2024-08-07T17:04:48.674773167+02:00"
     description: A Helm chart for Kubernetes
     digest: 3590075c5f5490f96effd7dc9134671d7f65204b81659419d20ab060fa6d00f3
     name: jackett
@@ -156,7 +156,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.529146378+02:00"
+    created: "2024-08-07T17:04:48.673697783+02:00"
     description: A Helm chart for Kubernetes
     digest: a3da488ba15cd2111c1290d8f8db24409f7e7c82ef9c44a7e7d9e4bf0d9e0525
     name: jackett
@@ -166,7 +166,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.527694685+02:00"
+    created: "2024-08-07T17:04:48.67269977+02:00"
     description: A Helm chart for Kubernetes
     digest: 18b633195681c578d3f839f0319c757e734e358d96c3408f42301bd4b2746375
     name: jackett
@@ -176,7 +176,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.526858194+02:00"
+    created: "2024-08-07T17:04:48.672148916+02:00"
     description: A Helm chart for Kubernetes
     digest: 5ac85d914a86fe9883e1aed59a696d4215500ebb55918ffb7ae968e0d3ac2baf
     name: jackett
@@ -187,9 +187,9 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.540193593+02:00"
+    created: "2024-08-07T17:04:48.684027266+02:00"
     description: A Helm chart for Kubernetes
-    digest: 21d68de63587e6dfd0b1c3a07cac4be24c65a20bee42f6085b5ba3f41222b382
+    digest: e19b58ef3839dd0a151493ed7820c875c8269076916f57a36c41a5e819b6c4f3
     name: jellyfin
     type: application
     urls:
@@ -197,7 +197,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.537998868+02:00"
+    created: "2024-08-07T17:04:48.681490155+02:00"
     description: A Helm chart for Kubernetes
     digest: d07cf773bd0d2816ec11b632e2e2157b5976d99006db1b0a346b4e2aa8acb53d
     name: jellyfin
@@ -207,7 +207,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.536614751+02:00"
+    created: "2024-08-07T17:04:48.680260677+02:00"
     description: A Helm chart for Kubernetes
     digest: 40b229ab1042af5ec1f144e12eebf72d88829c735211e916f3a34373d3dbbb2b
     name: jellyfin
@@ -217,7 +217,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.53527997+02:00"
+    created: "2024-08-07T17:04:48.678924391+02:00"
     description: A Helm chart for Kubernetes
     digest: 74e5242978c974ba9aa0cf592c994958589e4939185d94cbe4741138e06d5ece
     name: jellyfin
@@ -228,9 +228,9 @@ entries:
   jellyseerr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.544857977+02:00"
+    created: "2024-08-07T17:04:48.688807275+02:00"
     description: A Helm chart for Kubernetes
-    digest: 6a4eb6e0e6308da927fd3b57a6bc1a3e155b950a08aadba754528fbb7ac48486
+    digest: f6176f0b3062b7fa9e86b0a8eb2ae585a2a0c2bf736f3a2091002c809aaecef5
     name: jellyseerr
     type: application
     urls:
@@ -238,7 +238,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.54326459+02:00"
+    created: "2024-08-07T17:04:48.68683619+02:00"
     description: A Helm chart for Kubernetes
     digest: 6cf936c2d9eaabdc557debd9f116f2afa06624f6063a5f4d7763850ca08e370a
     name: jellyseerr
@@ -248,7 +248,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.542107272+02:00"
+    created: "2024-08-07T17:04:48.68579696+02:00"
     description: A Helm chart for Kubernetes
     digest: f5781cb506a8578641ad62859ce849d82b8243138294e0592d2104c249cf5b70
     name: jellyseerr
@@ -258,7 +258,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.540870261+02:00"
+    created: "2024-08-07T17:04:48.684654255+02:00"
     description: A Helm chart for Kubernetes
     digest: 656794962debfdbc2f4b0fd8d18bdde3523696b4e99684bc288381d12ffda027
     name: jellyseerr
@@ -269,7 +269,17 @@ entries:
   minecraft:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.545519701+02:00"
+    created: "2024-08-07T17:04:48.690180998+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ee18fef13c1fb9d9d7218e30d4bb3e4f0c320239368a03e2eb0238069bee7d1d
+    name: minecraft
+    type: application
+    urls:
+    - https://reinoudb.github.io/charts/minecraft/minecraft-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-07T17:04:48.689441459+02:00"
     description: A Helm chart for Kubernetes
     digest: c2f650302b8e41133a330ed2c9f073ea51d2d71c1cb3213a21eb45c5323d9174
     name: minecraft
@@ -280,9 +290,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-08-07T17:03:14.551548955+02:00"
+    created: "2024-08-07T17:04:48.697234826+02:00"
     description: A Helm chart for Kubernetes
-    digest: 5d2f539e4b4c6c0891c11a09d61c735c1714af562f631e65830914774207f9ca
+    digest: 0b2b3ff66c379480ffb139064ffb1de4c1b516834f7d6c65511c3c8a05a46525
     name: nginx
     type: application
     urls:
@@ -290,7 +300,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-08-07T17:03:14.548708967+02:00"
+    created: "2024-08-07T17:04:48.694630455+02:00"
     description: A Helm chart for Kubernetes
     digest: 7fd448ddde2490fb0b73c5cbbab047470b91948fc16ea6c95b75fcf2e3fcb2fd
     name: nginx
@@ -300,7 +310,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-08-07T17:03:14.547252972+02:00"
+    created: "2024-08-07T17:04:48.691871375+02:00"
     description: A Helm chart for Kubernetes
     digest: 3c60fd7a3b66c149c9ee54c168fdf48ba4d3e4a18c6871379751e06fcf62c1a4
     name: nginx
@@ -310,7 +320,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.546163703+02:00"
+    created: "2024-08-07T17:04:48.690814599+02:00"
     description: A Helm chart for Kubernetes
     digest: eea86c8c33c2ece16939f5ccd969755f0702b02d0c24437478c1377d9ea0a7a4
     name: nginx
@@ -321,9 +331,9 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.556441789+02:00"
+    created: "2024-08-07T17:04:48.702222835+02:00"
     description: A Helm chart for Kubernetes
-    digest: 2239b817fde4d75409480ec8a8a10af239e440cbec5e6815b15c97590691ba0c
+    digest: 7124d65e74f900fa77b14e74b0bd25941bb952454514fc23aa84a97936c89d0a
     name: radarr
     type: application
     urls:
@@ -331,7 +341,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.554845974+02:00"
+    created: "2024-08-07T17:04:48.70027242+02:00"
     description: A Helm chart for Kubernetes
     digest: 28ec98fc866b4d6ce0314def22778eace99ad0222408556be98dcddd91057b6e
     name: radarr
@@ -341,7 +351,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.553717276+02:00"
+    created: "2024-08-07T17:04:48.699185519+02:00"
     description: A Helm chart for Kubernetes
     digest: 437e63cec279efa005fd87de38c46ab9aba912ebca02b4f5f94b2e9d2b03c38a
     name: radarr
@@ -351,7 +361,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.552373865+02:00"
+    created: "2024-08-07T17:04:48.697950121+02:00"
     description: A Helm chart for Kubernetes
     digest: 28735ac4a2abc898efada4ffa760fef0fb001ffae63172095cb61189b0b40719
     name: radarr
@@ -362,9 +372,9 @@ entries:
   restic-server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.561176446+02:00"
+    created: "2024-08-07T17:04:48.707597389+02:00"
     description: A Helm chart for Kubernetes
-    digest: ca094866552907544d141c8891a6b35c8dcd3e77a17a6381d1c09cf4df226be9
+    digest: de826600653205eae2305e4294b3f1ffb3aed7c604dddca9074454b124d98329
     name: restic-server
     type: application
     urls:
@@ -372,7 +382,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.559509739+02:00"
+    created: "2024-08-07T17:04:48.705302665+02:00"
     description: A Helm chart for Kubernetes
     digest: 17f85a96fbaebfa93dc4eacb6dbc0fd815c7bde1eb2f25ef41f9c25d4db51f68
     name: restic-server
@@ -382,7 +392,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.558355538+02:00"
+    created: "2024-08-07T17:04:48.704110542+02:00"
     description: A Helm chart for Kubernetes
     digest: 5e7a24c9da85e0cb75ecd68990e5c0ff77f6fb2206881621d7a0c8430149e724
     name: restic-server
@@ -392,7 +402,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.557198197+02:00"
+    created: "2024-08-07T17:04:48.702922085+02:00"
     description: A Helm chart for Kubernetes
     digest: 54ae8208fc0f6bf444eecdf064fbda439ab04766186a68a501a0cd1ec4146bfb
     name: restic-server
@@ -403,9 +413,9 @@ entries:
   searxng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.566803408+02:00"
+    created: "2024-08-07T17:04:48.713906547+02:00"
     description: A Helm chart for Kubernetes
-    digest: 440c580f1375629eea1f041147f75ca5c32dca03d1e758caba97b5bfac308eb1
+    digest: 0a3ed7769724278dcb86bef0c88752a4a8a48419f9c57d0bf214d298deb7a9d3
     name: searxng
     type: application
     urls:
@@ -413,7 +423,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.564111076+02:00"
+    created: "2024-08-07T17:04:48.712123721+02:00"
     description: A Helm chart for Kubernetes
     digest: a75f7364de8a86e3a04f6679a5f16a6cfcedf083eb882edeb03ad648b9335e22
     name: searxng
@@ -423,7 +433,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.56295225+02:00"
+    created: "2024-08-07T17:04:48.710640788+02:00"
     description: A Helm chart for Kubernetes
     digest: f0d36b71b77a71fd92a76252de668401b2268a98d79ac38083f67779e522e872
     name: searxng
@@ -433,7 +443,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.561826893+02:00"
+    created: "2024-08-07T17:04:48.709301716+02:00"
     description: A Helm chart for Kubernetes
     digest: b4f90a8610fcd1cafd45166432687b6a0e5f2823f851891e6e427fcfcf143b34
     name: searxng
@@ -444,9 +454,9 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.572439005+02:00"
+    created: "2024-08-07T17:04:48.716606317+02:00"
     description: A Helm chart for Kubernetes
-    digest: ea34767ee8f6487b41f92fe62b62a7bfafc3e09a5dc07a39bb6e96dff6199ca5
+    digest: 0b3add908f49d33d7eba1ac4d8b025d7fe49292c9b42035de4459b6213e92180
     name: sonarr
     type: application
     urls:
@@ -454,7 +464,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.570739579+02:00"
+    created: "2024-08-07T17:04:48.715538478+02:00"
     description: A Helm chart for Kubernetes
     digest: ff19d0ca6d69540f71b123c5023b7cd096bc3a2c4701ce3a019f788b6792ad2e
     name: sonarr
@@ -464,7 +474,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.569411436+02:00"
+    created: "2024-08-07T17:04:48.714945584+02:00"
     description: A Helm chart for Kubernetes
     digest: 165a6a9d016dd6f470fb60036ec4d38c987c499d59317c8e5c7dece3cebbe781
     name: sonarr
@@ -474,7 +484,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.567919525+02:00"
+    created: "2024-08-07T17:04:48.714313733+02:00"
     description: A Helm chart for Kubernetes
     digest: a267c94bd66ff84c4b84cc1439b8d087d51cf37df3c5e4d2feb10f5189f23576
     name: sonarr
@@ -485,9 +495,9 @@ entries:
   tree-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.576836582+02:00"
+    created: "2024-08-07T17:04:48.719956826+02:00"
     description: A Helm chart for Kubernetes
-    digest: d4c1fb4d80a3972ec0e584a782eb0624e7087710bac5c0c4a70eb8896ec904c7
+    digest: 5dfb5fbfe3061fdd755f84ea8dc4a9512116c21adc5f637e96b993858ffb09bc
     name: tree-app
     type: application
     urls:
@@ -495,7 +505,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.575351322+02:00"
+    created: "2024-08-07T17:04:48.718197612+02:00"
     description: A Helm chart for Kubernetes
     digest: b044da991cf1e0844670e673e6c17b0fda65c75497408f13ba72576133c84d99
     name: tree-app
@@ -505,7 +515,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.574215201+02:00"
+    created: "2024-08-07T17:04:48.71761657+02:00"
     description: A Helm chart for Kubernetes
     digest: 17d879461f3f40a1a6fc87d70b5a6c2cf147af1b451bcdc5a82abdbd50feee1b
     name: tree-app
@@ -515,7 +525,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.573083636+02:00"
+    created: "2024-08-07T17:04:48.716954734+02:00"
     description: A Helm chart for Kubernetes
     digest: be06af9bdfd38f7b87ad37a7e374707a0a2d8598a6acf6b7cdc2ee77a516b096
     name: tree-app
@@ -526,9 +536,9 @@ entries:
   vaultwarden:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.581167758+02:00"
+    created: "2024-08-07T17:04:48.722765201+02:00"
     description: A Helm chart for Kubernetes
-    digest: 43d2f91395a92b5df8cddf026bf107726fe1fd6d4c4e38e643ac0cd3aed1bf2f
+    digest: 508c580f7e4364c7e8ce1948cd0e48d67a9fb9061632b4a55b764aa1e9cac6e5
     name: vaultwarden
     type: application
     urls:
@@ -536,7 +546,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.579650377+02:00"
+    created: "2024-08-07T17:04:48.721658831+02:00"
     description: A Helm chart for Kubernetes
     digest: 909d5e7afee27f0d95547b5c7d10b5ca250fb5ca4e154c5bbe346ebfbeb602cc
     name: vaultwarden
@@ -546,7 +556,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.578588005+02:00"
+    created: "2024-08-07T17:04:48.721035678+02:00"
     description: A Helm chart for Kubernetes
     digest: 8d6f2142bd469bc05de58b5ab135b13ea4d5e40dddd97fabcad9440954358289
     name: vaultwarden
@@ -556,7 +566,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T17:03:14.577457698+02:00"
+    created: "2024-08-07T17:04:48.720370102+02:00"
     description: A Helm chart for Kubernetes
     digest: 8b2af721f5d2582aa2275bb58446ae3d2740f4ad131b8c3d6842f59e6fc175f1
     name: vaultwarden
@@ -564,4 +574,4 @@ entries:
     urls:
     - https://reinoudb.github.io/charts/vaultwarden/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-07T17:03:14.505336567+02:00"
+generated: "2024-08-07T17:04:48.657942546+02:00"
