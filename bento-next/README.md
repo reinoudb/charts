@@ -62,3 +62,11 @@ To configure volumesMounts for the Bento-Next application, modify the following 
 | `volumesMounts` | List of volume mounts to attach to the container. Each volume mount specifies where a volume should be mounted inside the container. Default: [].|
 
 For more information, visit: [Kubernetes Volumes Documentation](https://kubernetes.io/docs/concepts/storage/volumes/).
+
+### env
+
+| Option | Description |
+|--------|-------------|
+| `env.TZ` | Define the pods timezone e.g. "Europe/Paris" |
+
+
