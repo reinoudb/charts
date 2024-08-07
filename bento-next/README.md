@@ -51,6 +51,8 @@ To configure volumes for the Bento-Next application, modify the following parame
 |--------|-------------|
 | `volumes` | List of volumes to attach to the pod. Each volume can have different sources such as ConfigMaps, Secrets, PersistentVolumeClaims, etc. Default: `[]`. |
 
+For more information, visit: [Kubernetes Volumes Documentation](https://kubernetes.io/docs/concepts/storage/volumes/).
+
 ### volumesMounts
 
 To configure volumesMounts for the Bento-Next application, modify the following parameters:
@@ -58,3 +60,5 @@ To configure volumesMounts for the Bento-Next application, modify the following 
 | Option | Description |
 |--------|-------------|
 | `volumesMounts` | List of volume mounts to attach to the container. Each volume mount specifies where a volume should be mounted inside the container. Default: [].|
+
+For more information, visit: [Kubernetes Volumes Documentation](https://kubernetes.io/docs/concepts/storage/volumes/).
