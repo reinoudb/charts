@@ -4,6 +4,9 @@
 
 replicaCount: 1
 
+env:
+  TZ: "Europe/Paris"
+
 image:
   repository: flaresolverr/flaresolverr
   pullPolicy: IfNotPresent

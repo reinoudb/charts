@@ -4,7 +4,10 @@
 
 replicaCount: 1
 
-image:
+ienv:
+  TZ: "Europe/Paris"
+
+mage:
   repository: linuxserver/jackett
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
