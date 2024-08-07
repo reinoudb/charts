@@ -1,6 +1,6 @@
-# Bento-Next Helm Chart Configuration
+# Helm Chart Configuration
 
-This Helm chart deploys the Bento-Next application. Below are the configurable parameters for this chart and their default values as defined in the `values.yaml` file.
+This Helm chart deploys your application. Below are the configurable parameters for this chart and their default values as defined in the `values.yaml` file.
 
 ## Parameters
 
@@ -16,7 +16,7 @@ For more information, visit: [Kubernetes Image Documentation](https://kubernetes
 
 ### ingress
 
-To configure Ingress for the Bento-Next application, modify the following parameters:
+To configure Ingress for the application, modify the following parameters:
 
 | Option | Description |
 |--------|-------------|
@@ -31,7 +31,7 @@ For more information, visit: [Kubernetes Ingress Documentation](https://kubernet
 
 ### service
 
-To configure a `ClusterIP` service for the Bento-Next application, modify the following parameters:
+To configure a `ClusterIP` service for the application, modify the following parameters:
 
 | Option | Description |
 |--------|-------------|
@@ -45,7 +45,7 @@ For more information, visit: [Kubernetes Service Documentation](https://kubernet
 
 ### volumes
 
-To configure volumes for the Bento-Next application, modify the following parameters:
+To configure volumes for the application, modify the following parameters:
 
 | Option | Description |
 |--------|-------------|
@@ -55,7 +55,7 @@ For more information, visit: [Kubernetes Volumes Documentation](https://kubernet
 
 ### volumesMounts
 
-To configure volumesMounts for the Bento-Next application, modify the following parameters:
+To configure volumesMounts for the application, modify the following parameters:
 
 | Option | Description |
 |--------|-------------|
