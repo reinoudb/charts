@@ -5,7 +5,7 @@
 replicaCount: 1
 
 env:
-  JF_URL: "https://jellyfin.example.com"
+  JF_URL: "https://jellyfin.example.com/" # DON'T FORGET THAT / AT THE END OF THE URL!
   TOKEN: "JELLYFINTOKEN"
 
 image:
@@ -45,7 +45,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8080
 
 ingress:
   enabled: false
@@ -77,11 +77,11 @@ resources: {}
 
 livenessProbe:
   httpGet:
-    path: /
+    path: /metrics
     port: http
 readinessProbe:
   httpGet:
-    path: /
+    path: /metrics
     port: http
 
 autoscaling:
