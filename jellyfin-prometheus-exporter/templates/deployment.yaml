@@ -34,9 +34,9 @@ spec:
         - name: {{ .Chart.Name }}
           env:
             - name: TOKEN
-              value: {{ .Value.env.TOKEN }}
+              value: {{ .Values.env.TOKEN }}
             - name: JF_URL
-              value: {{ .Value.env.JF_URL }}
+              value: {{ .Values.env.JF_URL }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
