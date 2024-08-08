@@ -4,6 +4,10 @@
 
 replicaCount: 1
 
+env:
+  JF_URL: "https://jellyfin.example.com"
+  TOKEN: "JELLYFINTOKEN"
+
 image:
   repository: ghcr.io/stefanabl/jellyfin-prometheus-exporter
   pullPolicy: IfNotPresent
