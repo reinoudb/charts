@@ -1,9 +1,16 @@
 {{/*
+Create the name for the PersistentVolumeClaim (PVC).
+*/}}
+{{- define "jackett.configPersistenceName" -}}
+{{- printf "%s-config" .Release.Name | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{/*
 Expand the name of the chart.
 */}}
 {{- define "jackett.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
-{{- end }}
+{{- end -}}
 
 {{/*
 Create a default fully qualified app name.
@@ -21,14 +28,14 @@ If release name contains chart name it will be used as a full name.
 {{- printf "%s-%s" .Release.Name $name | trunc 63 | trimSuffix "-" }}
 {{- end }}
 {{- end }}
-{{- end }}
+{{- end -}}
 
 {{/*
 Create chart name and version as used by the chart label.
 */}}
 {{- define "jackett.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
-{{- end }}
+{{- end -}}
 
 {{/*
 Common labels
@@ -40,7 +47,7 @@ helm.sh/chart: {{ include "jackett.chart" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
-{{- end }}
+{{- end -}}
 
 {{/*
 Selector labels
@@ -48,7 +55,7 @@ Selector labels
 {{- define "jackett.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "jackett.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
-{{- end }}
+{{- end -}}
 
 {{/*
 Create the name of the service account to use
@@ -59,4 +66,4 @@ Create the name of the service account to use
 {{- else }}
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
-{{- end }}
+{{- end -}}
