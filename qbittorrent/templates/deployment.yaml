@@ -47,10 +47,10 @@ spec:
               containerPort: {{ .Values.service.web.port }}
               protocol: TCP
             - name: torrent-tcp
-              containerPort: 6881
+              containerPort: {{ .Values.service.torrent.port }}
               protocol: TCP
             - name: torrent-udp
-              containerPort: 6881
+              containerPort: {{ .Values.service.torrent.port }}
               protocol: UDP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
@@ -58,7 +58,8 @@ spec:
             - name: QBITTORRENT__PORT
               value: "{{ $.Values.service.web.port }}"
             - name: QBITTORRENT__BT_PORT
-              value: "8388"
+              value: "{{ $.Values.service.torrent_port }}"
+
           {{- with .Values.extraEnv }}
             {{- toYaml . | nindent 12 }}
           {{- end }}
