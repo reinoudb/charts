@@ -42,7 +42,7 @@ spec:
           command:
           - /exportarr
           args:
-          - {{ .Values..TargetApplication }}
+          - {{ .Values.TargetApplication }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
