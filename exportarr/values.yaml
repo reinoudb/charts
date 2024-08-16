@@ -8,7 +8,7 @@ env:
   APIKEY: "yourapikey" # replace with apikey of the arr app
   URL: "http://SERVICE.local" # replace with the url to your arr app
   PORT: "80"
-  TargetApplication: "radarr" # replace with: sonarr, radarr, bazarr, ...
+TargetApplication: "radarr" # replace with: sonarr, radarr, bazarr, ...
 
 image:
   repository: ghcr.io/onedr0p/exportarr
