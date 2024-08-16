@@ -32,6 +32,17 @@ spec:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
         - name: {{ .Chart.Name }}
+          env:
+            - name: APIKEY
+              value: {{ .Values.env.APIKEY }}
+            - name: URL
+              value: {{ .Values.env.URL }}
+            - name: PORT 
+              value: {{ .Values.env.PORT }}
+          command:
+          - /exportarr
+          args:
+          - {{ .Values..TargetApplication }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
