@@ -5,7 +5,7 @@
 replicaCount: 1
 
 env:
-  APIKEY: YOUR*ARRKEY # replace with apikey of the arr app
+  APIKEY: "yourapikey" # replace with apikey of the arr app
   URL: "http://SERVICE.local" replace with the url to your arr app
   PORT: "80"
   TargetApplication: "radarr" replace with: sonarr, radarr, bazarr, ...
