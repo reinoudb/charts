@@ -34,13 +34,13 @@ spec:
         - name: {{ .Chart.Name }}
           env:
             - name: IMMICH_HOST
-              value: {{ .Values.env.IMMICH_HOST }}
+              value: "{{ .Values.env.IMMICH_HOST }}"
             - name: IMMICH_PORT 
-              value: {{ .Values.env.IMMICH_PORT }}
+              value: "{{ .Values.env.IMMICH_PORT }}"
             - name: IMMICH_API_TOKEN
               value: {{ .Values.env.IMMICH_API_TOKEN }}
             - name: EXPORTER_PORT
-              value: {{ .Values.service.port }}
+              value: "{{ .Values.service.port }}"
             - name: EXPORTER_LOG_LEVEL
               value: {{ .Values.env.EXPORTER_LOG_LEVEL }}
             - name: METRICS_PREFIX
