@@ -4,6 +4,18 @@
 
 replicaCount: 1
 
+env:
+  - name: IMMICH_HOST
+    value: "127.0.0.1"
+  - name: IMMICH_PORT 
+    value: "2283"
+  - name: IMMICH_API_TOKEN
+    value: "MYTOKEN"
+  - name: EXPORTER_LOG_LEVEL
+    value: "INFO"
+  - name: METRICS_PREFIX
+    value: "immich"
+
 image:
   repository: friendlyfriend/prometheus-immich-exporter
   pullPolicy: IfNotPresent
@@ -41,7 +53,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8000
 
 ingress:
   enabled: false

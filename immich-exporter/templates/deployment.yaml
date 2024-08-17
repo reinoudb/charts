@@ -32,6 +32,19 @@ spec:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
         - name: {{ .Chart.Name }}
+          env:
+            - name: IMMICH_HOST
+              value: {{ .Values.env.IMMICH_HOST }}
+            - name: IMMICH_PORT 
+              value: {{ .Values.env.IMMICH_PORT }}
+            - name: IMMICH_API_TOKEN
+              value: {{ .Values.env.IMMICH_API_TOKEN }}
+            - name: EXPORTER_PORT
+              value: {{ .Values.service.port }}
+            - name: EXPORTER_LOG_LEVEL
+              value: {{ .Values.env.EXPORTER_LOG_LEVEL }}
+            - name: METRICS_PREFIX
+              value: {{ .Values.env.METRICS_PREFIX }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
