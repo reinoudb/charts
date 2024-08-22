@@ -4,6 +4,17 @@
 
 replicaCount: 1
 
+html: |
+  <html>
+    <head>
+      <title>My Nginx Page</title>
+    </head>
+    <body>
+      <h1>Welcome to Nginx</h1>
+      <p>This is a custom page served by Nginx.</p>
+    </body>
+  </html>
+
 env:
   TZ: "Europe/Paris"
 
