@@ -21,5 +21,8 @@ You can search for charts in the Ajuin repository using the helm search command:
 
 `helm search repo ajuin`
 
+# Warning
+All of the charts in this repo are just maintained by me and i tend to like to do some testing on them. So prepare for something to brake.
+
 # Contributing
 We welcome contributions to the Ajuin Helm Chart Repository! If you have a chart you'd like to add or improvements to an existing chart, please submit a pull request.
