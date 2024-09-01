@@ -1,6 +1,6 @@
-# tree-app
+# qbittorrent-exporter
 
-![Version: 0.1.3](https://img.shields.io/badge/Version-0.1.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.0](https://img.shields.io/badge/AppVersion-1.16.0-informational?style=flat-square)
+![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.0](https://img.shields.io/badge/AppVersion-1.16.0-informational?style=flat-square)
 
 A Helm chart for Kubernetes
 
@@ -13,10 +13,29 @@ A Helm chart for Kubernetes
 | autoscaling.maxReplicas | int | `100` |  |
 | autoscaling.minReplicas | int | `1` |  |
 | autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
-| env.TZ | string | `"Europe/Paris"` |  |
+| env[0].name | string | `"QBITTORRENT_HOST"` |  |
+| env[0].value | string | `"127.0.0.1"` |  |
+| env[1].name | string | `"QBITTORRENT_PORT"` |  |
+| env[1].value | string | `"8080"` |  |
+| env[2].name | string | `"QBITTORRENT_SSL"` |  |
+| env[2].value | string | `"True"` |  |
+| env[3].name | string | `"QBITTORRENT_URL_BASE"` |  |
+| env[3].value | string | `"/"` |  |
+| env[4].name | string | `"QBITTORRENT_USER"` |  |
+| env[4].value | string | `"username"` |  |
+| env[5].name | string | `"QBITTORRENT_PASS"` |  |
+| env[5].value | string | `"password"` |  |
+| env[6].name | string | `"EXPORTER_PORT"` |  |
+| env[6].value | string | `"8000"` |  |
+| env[7].name | string | `"EXPORTER_LOG_LEVEL"` |  |
+| env[7].value | string | `"INFO"` |  |
+| env[8].name | string | `"METRICS_PREFIX"` |  |
+| env[8].value | string | `"qbittorrent"` |  |
+| env[9].name | string | `"VERIFY_WEBUI_CERTIFICATE"` |  |
+| env[9].value | string | `"True"` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"reinoudb/tree-app"` |  |
+| image.repository | string | `"ghcr.io/esanchezm/prometheus-qbittorrent-exporter"` |  |
 | image.tag | string | `"latest"` |  |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |

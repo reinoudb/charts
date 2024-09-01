@@ -1,6 +1,6 @@
-# tree-app
+# nginx
 
-![Version: 0.1.3](https://img.shields.io/badge/Version-0.1.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.0](https://img.shields.io/badge/AppVersion-1.16.0-informational?style=flat-square)
+![Version: 0.1.6](https://img.shields.io/badge/Version-0.1.6-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.1](https://img.shields.io/badge/AppVersion-1.16.1-informational?style=flat-square)
 
 A Helm chart for Kubernetes
 
@@ -15,8 +15,9 @@ A Helm chart for Kubernetes
 | autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
 | env.TZ | string | `"Europe/Paris"` |  |
 | fullnameOverride | string | `""` |  |
+| html | string | `"<!DOCTYPE html>\n<html>\n<head>\n    <title>Welcome to this nginx testpage!</title>\n</head>\n"` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"reinoudb/tree-app"` |  |
+| image.repository | string | `"nginx"` |  |
 | image.tag | string | `"latest"` |  |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |

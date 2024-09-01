@@ -1,4 +1,4 @@
-# tree-app
+# jellyfin-prometheus-exporter
 
 ![Version: 0.1.3](https://img.shields.io/badge/Version-0.1.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.0](https://img.shields.io/badge/AppVersion-1.16.0-informational?style=flat-square)
 
@@ -13,10 +13,11 @@ A Helm chart for Kubernetes
 | autoscaling.maxReplicas | int | `100` |  |
 | autoscaling.minReplicas | int | `1` |  |
 | autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
-| env.TZ | string | `"Europe/Paris"` |  |
+| env.JF_URL | string | `"https://jellyfin.example.com/"` |  |
+| env.TOKEN | string | `"JELLYFINTOKEN"` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"reinoudb/tree-app"` |  |
+| image.repository | string | `"ghcr.io/stefanabl/jellyfin-prometheus-exporter"` |  |
 | image.tag | string | `"latest"` |  |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |
@@ -26,19 +27,19 @@ A Helm chart for Kubernetes
 | ingress.hosts[0].paths[0].path | string | `"/"` |  |
 | ingress.hosts[0].paths[0].pathType | string | `"ImplementationSpecific"` |  |
 | ingress.tls | list | `[]` |  |
-| livenessProbe.httpGet.path | string | `"/"` |  |
+| livenessProbe.httpGet.path | string | `"/metrics"` |  |
 | livenessProbe.httpGet.port | string | `"http"` |  |
 | nameOverride | string | `""` |  |
 | nodeSelector | object | `{}` |  |
 | podAnnotations | object | `{}` |  |
 | podLabels | object | `{}` |  |
 | podSecurityContext | object | `{}` |  |
-| readinessProbe.httpGet.path | string | `"/"` |  |
+| readinessProbe.httpGet.path | string | `"/metrics"` |  |
 | readinessProbe.httpGet.port | string | `"http"` |  |
 | replicaCount | int | `1` |  |
 | resources | object | `{}` |  |
 | securityContext | object | `{}` |  |
-| service.port | int | `80` |  |
+| service.port | int | `8080` |  |
 | service.type | string | `"ClusterIP"` |  |
 | serviceAccount.annotations | object | `{}` |  |
 | serviceAccount.automount | bool | `true` |  |

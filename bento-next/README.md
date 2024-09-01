@@ -1,72 +1,52 @@
-# Helm Chart Configuration
+# bento-next
 
-This Helm chart deploys your application. Below are the configurable parameters for this chart and their default values as defined in the `values.yaml` file.
+![Version: 0.1.3](https://img.shields.io/badge/Version-0.1.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.0](https://img.shields.io/badge/AppVersion-1.16.0-informational?style=flat-square)
 
-## Parameters
+A Helm chart for Kubernetes
 
-### image
+## Values
 
-| Option | Description |
-|--------|-------------|
-| `image.repository` | Defines which image to use. |
-| `image.pullPolicy` | Specifies the image pull policy. Options: `IfNotPresent`, `Always`, `Never`. |
-| `image.tag` | Defines the version to use, e.g., `v1.0.1`. |
+| Key | Type | Default | Description |
+|-----|------|---------|-------------|
+| affinity | object | `{}` |  |
+| autoscaling.enabled | bool | `false` |  |
+| autoscaling.maxReplicas | int | `100` |  |
+| autoscaling.minReplicas | int | `1` |  |
+| autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
+| env.TZ | string | `"Europe/Paris"` |  |
+| fullnameOverride | string | `""` |  |
+| image.pullPolicy | string | `"IfNotPresent"` |  |
+| image.repository | string | `"lewisdoesstuff/bento-next"` |  |
+| image.tag | string | `"latest"` |  |
+| imagePullSecrets | list | `[]` |  |
+| ingress.annotations | object | `{}` |  |
+| ingress.className | string | `""` |  |
+| ingress.enabled | bool | `false` |  |
+| ingress.hosts[0].host | string | `"chart-example.local"` |  |
+| ingress.hosts[0].paths[0].path | string | `"/"` |  |
+| ingress.hosts[0].paths[0].pathType | string | `"ImplementationSpecific"` |  |
+| ingress.tls | list | `[]` |  |
+| livenessProbe.httpGet.path | string | `"/"` |  |
+| livenessProbe.httpGet.port | string | `"http"` |  |
+| nameOverride | string | `""` |  |
+| nodeSelector | object | `{}` |  |
+| podAnnotations | object | `{}` |  |
+| podLabels | object | `{}` |  |
+| podSecurityContext | object | `{}` |  |
+| readinessProbe.httpGet.path | string | `"/"` |  |
+| readinessProbe.httpGet.port | string | `"http"` |  |
+| replicaCount | int | `1` |  |
+| resources | object | `{}` |  |
+| securityContext | object | `{}` |  |
+| service.port | int | `80` |  |
+| service.type | string | `"ClusterIP"` |  |
+| serviceAccount.annotations | object | `{}` |  |
+| serviceAccount.automount | bool | `true` |  |
+| serviceAccount.create | bool | `true` |  |
+| serviceAccount.name | string | `""` |  |
+| tolerations | list | `[]` |  |
+| volumeMounts | list | `[]` |  |
+| volumes | list | `[]` |  |
 
-For more information, visit: [Kubernetes Image Documentation](https://kubernetes.io/docs/concepts/containers/images/).
-
-### ingress
-
-To configure Ingress for the application, modify the following parameters:
-
-| Option | Description |
-|--------|-------------|
-| `ingress.enabled` | Specifies whether to enable Ingress. Default: `false`. |
-| `ingress.className` | Define what ingress to use e.g. nginx, cilium, ... |
-| `ingress.annotations` | Annotations for the Ingress resource. Default: `{}`. |
-| `ingress.hosts` | List of hostnames for which the Ingress should route traffic. Default: `[]`. |
-| `ingress.tls.secretName` | Define the secretName of the secret deployed by e.g. cert-manager |
-| `ingress.tls.hosts` | List the hostnames which can use the tls secret |
-
-For more information, visit: [Kubernetes Ingress Documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/).
-
-### service
-
-To configure a `ClusterIP` service for the application, modify the following parameters:
-
-| Option | Description |
-|--------|-------------|
-| `service.type` | Specifies the type of the service. Set to `ClusterIP` for internal-only access. Default: `ClusterIP`. |
-| `service.port` | Defines the port that the service will expose. Default: `80`. |
-| `service.targetPort` | The port on the container that the service should forward traffic to. Default: `80`. |
-| `service.clusterIP` | Specify a static IP address for the service. If not specified, a random IP is assigned. Default: `""`. |
-| `service.selector` | Define the labels used to select the pods that the service should route traffic to. Default: `{}`. |
-
-For more information, visit: [Kubernetes Service Documentation](https://kubernetes.io/docs/concepts/services-networking/service/).
-
-### volumes
-
-To configure volumes for the application, modify the following parameters:
-
-| Option | Description |
-|--------|-------------|
-| `volumes` | List of volumes to attach to the pod. Each volume can have different sources such as ConfigMaps, Secrets, PersistentVolumeClaims, etc. Default: `[]`. |
-
-For more information, visit: [Kubernetes Volumes Documentation](https://kubernetes.io/docs/concepts/storage/volumes/).
-
-### volumesMounts
-
-To configure volumesMounts for the application, modify the following parameters:
-
-| Option | Description |
-|--------|-------------|
-| `volumesMounts` | List of volume mounts to attach to the container. Each volume mount specifies where a volume should be mounted inside the container. Default: [].|
-
-For more information, visit: [Kubernetes Volumes Documentation](https://kubernetes.io/docs/concepts/storage/volumes/).
-
-### env
-
-| Option | Description |
-|--------|-------------|
-| `env.TZ` | Define the pods timezone e.g. "Europe/Paris" |
-
-
+----------------------------------------------
+Autogenerated from chart metadata using [helm-docs v1.14.2](https://github.com/norwoodj/helm-docs/releases/v1.14.2)
