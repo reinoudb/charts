@@ -21,6 +21,9 @@ You can search for charts in the Ajuin repository using the helm search command:
 
 `helm search repo ajuin`
 
+# Create your own chart!
+For simple basic charts running `createchart.sh` will create a chart that mostly works. It will ask you for the name of the chart and the image you want to use. When the image uses a weird port you might have to change `service.port: ` to the new port in the `Values.yaml` file. 
+
 # Warning
 All of the charts in this repo are just maintained by me and i tend to like to do some testing on them. So prepare for something to brake.
 
