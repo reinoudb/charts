@@ -2,13 +2,6 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-html: |
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <title>Welcome to this nginx testpage!</title>
-  </head>
-
 replicaCount: 1
 
 env:
