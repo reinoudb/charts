@@ -1,3 +1,5 @@
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/ajuinrepo)](https://artifacthub.io/packages/search?repo=ajuinrepo)
+
 # Ajuin Helm Chart Repository
 Welcome to the Ajuin Helm Chart Repository! This repository contains a collection of Helm charts for deploying various applications on Kubernetes.
 
