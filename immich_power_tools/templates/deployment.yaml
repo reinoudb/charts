@@ -32,6 +32,13 @@ spec:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
         - name: {{ .Chart.Name }}
+          env:
+            - name: IMMICH_API_KEY
+              value: "{{ .Values.env.IMMICH_API_KEY }}"
+            - name: IMMICH_URL
+              value: "{{ .Values.env.IMMICH_URL }}"
+            - name: EXTERNAL_IMMICH_URL
+              value: "{{ .Values.env.EXTERNAL_IMMICH_URL }}"
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
