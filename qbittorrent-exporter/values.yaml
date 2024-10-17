@@ -5,29 +5,15 @@
 replicaCount: 1
 
 env:
-  - name: QBITTORRENT_HOST
-    value: "127.0.0.1"
-  - name: QBITTORRENT_PORT
-    value: "8080"
-  - name: QBITTORRENT_SSL
-    value: "True"
-  - name: QBITTORRENT_URL_BASE
-    value: "/"
-  - name: QBITTORRENT_USER
+  - name: QBITTORRENT_USERNAME
     value: "username"
-  - name: QBITTORRENT_PASS
-    value: "password"
-  - name: EXPORTER_PORT
-    value: "8000"
-  - name: EXPORTER_LOG_LEVEL
-    value: "INFO"
-  - name: METRICS_PREFIX
-    value: "qbittorrent"
-  - name: VERIFY_WEBUI_CERTIFICATE
-    value: "True"
+  - name: QBITTORRENT_PASSWORD
+    value: "mypassword"
+  - name: QBITTORRENT_BASE_URL
+    value: "http://localhost:8080"
 
 image:
-  repository: ghcr.io/esanchezm/prometheus-qbittorrent-exporter
+  repository: caseyscarborough/qbittorrent-exporter
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
@@ -63,7 +49,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 17871
 
 ingress:
   enabled: false
