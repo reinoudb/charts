@@ -3,521 +3,459 @@ entries:
   bento-next:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.034292463+02:00"
+    created: "2024-11-26T17:47:25.078270821+01:00"
     description: A Helm chart for Kubernetes
     digest: b8be0729ebf0fd53809b52ada91ff58599dc4fb784bd9fb7305e1f5906277246
     name: bento-next
     type: application
     urls:
-    - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/bento-next/bento-next-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.026007375+02:00"
+    created: "2024-11-26T17:47:25.069846639+01:00"
     description: A Helm chart for Kubernetes
     digest: aa1bba409253c637670468daddae2caabc4a7ad78d067f2840e581e8d7c743fa
     name: bento-next
     type: application
     urls:
-    - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/bento-next/bento-next-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.024961095+02:00"
+    created: "2024-11-26T17:47:25.068875993+01:00"
     description: A Helm chart for Kubernetes
     digest: c010367348e91a22590d8aaf76549af4a1420cf425576863e5c660cbf866c551
     name: bento-next
     type: application
     urls:
-    - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/bento-next/bento-next-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.023954354+02:00"
+    created: "2024-11-26T17:47:25.06791924+01:00"
     description: A Helm chart for Kubernetes
     digest: 14ee9091e50c234ccb6e1856d53dcd728bc57ff54bae9958b81590c563c74d3e
     name: bento-next
     type: application
     urls:
-    - https://reinoudb.github.io/charts/bento-next/bento-next-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/bento-next/bento-next-0.1.0.tgz
     version: 0.1.0
   excalidraw:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.034979494+02:00"
+    created: "2024-11-26T17:47:25.078877571+01:00"
     description: A Helm chart for Kubernetes
     digest: 41e43647666736795c64c77f95326f4156397a0e0f8007e5b704755c76dfab1c
     name: excalidraw
     type: application
     urls:
-    - https://reinoudb.github.io/charts/excalidraw/excalidraw-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/excalidraw/excalidraw-0.1.0.tgz
     version: 0.1.0
   exportarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.03875785+02:00"
+    created: "2024-11-26T17:47:25.083117807+01:00"
     description: A Helm chart for Kubernetes
     digest: a89004344c143b61c412e9c43aadca0f729ad028af834a89001c806501a8c406
     name: exportarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/exportarr/exportarr-0.1.4.tgz
+    - https://github.com/reinoudb/charts/releases/download/exportarr/exportarr-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.037510973+02:00"
+    created: "2024-11-26T17:47:25.081865582+01:00"
     description: A Helm chart for Kubernetes
     digest: 09b778561c8aec19e8dbdbceb525c49b38d6621563c418d73173cd0d021ac262
     name: exportarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/exportarr/exportarr-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/exportarr/exportarr-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.036773648+02:00"
+    created: "2024-11-26T17:47:25.081081475+01:00"
     description: A Helm chart for Kubernetes
     digest: f79e887eb92c4ed2e5b4ef162a0b344f484f5bd331a28c6e662b0ce19f0dc759
     name: exportarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/exportarr/exportarr-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/exportarr/exportarr-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.036098432+02:00"
+    created: "2024-11-26T17:47:25.08024743+01:00"
     description: A Helm chart for Kubernetes
     digest: 78e2dda0958e0c7c1178632926059d043ccd0495e77051a4a79538afa5aa6f8b
     name: exportarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/exportarr/exportarr-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/exportarr/exportarr-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.035486192+02:00"
+    created: "2024-11-26T17:47:25.079427507+01:00"
     description: A Helm chart for Kubernetes
     digest: eeaf74b06a969c272e022ebfa9cd22c04bfd7c270ff6a1d160a5820f2611f56b
     name: exportarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/exportarr/exportarr-0.1.0.tgz
-    version: 0.1.0
-  fail2ban-prometheus-exporter:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.039779123+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 1f562fe39aaeb36d122e4dfb51e34ed40df238c42f97449cc37613553565d4d9
-    name: fail2ban-prometheus-exporter
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/fail2ban-prometheus-exporter/fail2ban-prometheus-exporter-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.039236134+02:00"
-    description: A Helm chart for Kubernetes
-    digest: f26dfdd224b553d74a468e338f434023de81c58a7936e1be43e6e14dd418656c
-    name: fail2ban-prometheus-exporter
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/fail2ban-prometheus-exporter/fail2ban-prometheus-exporter-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/exportarr/exportarr-0.1.0.tgz
     version: 0.1.0
   flaresolverr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.040309935+02:00"
+    created: "2024-11-26T17:47:25.083643728+01:00"
     description: A Helm chart for Kubernetes
     digest: 131539c2ed675389d162654ba48101316783c36ed6c972f9b55dd477eed869f1
     name: flaresolverr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/flaresolverr/flaresolverr-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/flaresolverr/flaresolverr-0.1.3.tgz
     version: 0.1.3
   immich-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.042852429+02:00"
+    created: "2024-11-26T17:47:25.08546424+01:00"
     description: A Helm chart for Kubernetes
     digest: 51171c3d67bbd787d4b0bc60da471699f64bb6e0493d32d27d0d758649fea345
     name: immich-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/immich-exporter/immich-exporter-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/immich-exporter/immich-exporter-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.041359592+02:00"
+    created: "2024-11-26T17:47:25.08475117+01:00"
     description: A Helm chart for Kubernetes
     digest: 226496995ce6f79c2dc2989791b0c5232cd901dbba5638543b96026fb68b85b7
     name: immich-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/immich-exporter/immich-exporter-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/immich-exporter/immich-exporter-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.040771331+02:00"
+    created: "2024-11-26T17:47:25.084108839+01:00"
     description: A Helm chart for Kubernetes
     digest: f402f23a38b6e03a622779dba1190b71ba7746bac0e3bfeb4629de87c0be9a54
     name: immich-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/immich-exporter/immich-exporter-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/immich-exporter/immich-exporter-0.1.0.tgz
     version: 0.1.0
   immich_power_tools:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.044226507+02:00"
+    created: "2024-11-26T17:47:25.086997721+01:00"
     description: A Helm chart for Kubernetes
     digest: 2c51802bfd200f1cddc372c57632c9ca716c6b14316b228e617bcfece0c243a6
     name: immich_power_tools
     type: application
     urls:
-    - https://reinoudb.github.io/charts/immich_power_tools/immich_power_tools-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/immich_power_tools/immich_power_tools-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.043499415+02:00"
+    created: "2024-11-26T17:47:25.086043088+01:00"
     description: A Helm chart for Kubernetes
     digest: ab71e202f632de3b5d9d1345bd47b4e25e9fc5f1cee0399f05a34b8c77496e2d
     name: immich_power_tools
     type: application
     urls:
-    - https://reinoudb.github.io/charts/immich_power_tools/immich_power_tools-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/immich_power_tools/immich_power_tools-0.1.0.tgz
     version: 0.1.0
   jellyfin-prometheus-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.047686494+02:00"
+    created: "2024-11-26T17:47:25.095023595+01:00"
     description: A Helm chart for Kubernetes
     digest: 8391e543392319b0053e0980b7cc62311edb7e9425a3b671521f56a77ec6afd6
     name: jellyfin-prometheus-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.046168762+02:00"
+    created: "2024-11-26T17:47:25.091619884+01:00"
     description: A Helm chart for Kubernetes
     digest: 3489e804d074215faab59c4fb6c23d7ef04ba4daf1e2dce0fe66bdff4e36092a
     name: jellyfin-prometheus-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.045371271+02:00"
+    created: "2024-11-26T17:47:25.089926569+01:00"
     description: A Helm chart for Kubernetes
     digest: 487064b3634039eda33f28f2ddb107707b5243b1b3cfb681a6ce23a5d3de7caa
     name: jellyfin-prometheus-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.044789447+02:00"
+    created: "2024-11-26T17:47:25.088588465+01:00"
     description: A Helm chart for Kubernetes
     digest: 1394e3d74718189abe8589554fa9d30118a76a6d34d729d892506f353a99f6d5
     name: jellyfin-prometheus-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/jellyfin-prometheus-exporter/jellyfin-prometheus-exporter-0.1.0.tgz
     version: 0.1.0
   lidarr:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.048865187+02:00"
+    created: "2024-11-26T17:47:25.097675756+01:00"
     description: lidarr helm chart for Kubernetes
     digest: 9b0147bb3b19dbabb079f3ffa1095eba4f9f2b6a285d90acc27dad1086cb3b19
     kubeVersion: '>=1.23.0-0'
     name: lidarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/lidarr/lidarr-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/lidarr/lidarr-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.04825708+02:00"
+    created: "2024-11-26T17:47:25.096317807+01:00"
     description: lidarr helm chart for Kubernetes
     digest: 7f1bf074c07ad5af2f263cc8d3ef8922e97e2b25baf4ae0c90a390bddc762e0b
     kubeVersion: '>=1.23.0-0'
     name: lidarr
     type: application
     urls:
-    - https://reinoudb.github.io/charts/lidarr/lidarr-0.1.0.tgz
-    version: 0.1.0
-  minecraft:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.054234842+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 7bad82ea8f29f4539c6be3da3952401b2b399d9f0fc57c8426b811dbdf9e46b4
-    name: minecraft
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/minecraft/minecraft-0.1.5.tgz
-    version: 0.1.5
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.051077838+02:00"
-    description: A Helm chart for Kubernetes
-    digest: b7bfc4c44e75583c7eb77e2486d2f71050b2eff0408540af01a0cf3ce2723bcc
-    name: minecraft
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/minecraft/minecraft-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.050289679+02:00"
-    description: A Helm chart for Kubernetes
-    digest: ee18fef13c1fb9d9d7218e30d4bb3e4f0c320239368a03e2eb0238069bee7d1d
-    name: minecraft
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/minecraft/minecraft-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.049589757+02:00"
-    description: A Helm chart for Kubernetes
-    digest: c2f650302b8e41133a330ed2c9f073ea51d2d71c1cb3213a21eb45c5323d9174
-    name: minecraft
-    type: application
-    urls:
-    - https://reinoudb.github.io/charts/minecraft/minecraft-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/lidarr/lidarr-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-10-19T20:51:59.066913483+02:00"
+    created: "2024-11-26T17:47:25.113754724+01:00"
     description: A Helm chart for Kubernetes
     digest: fb9d4958d739755d58e8f064638c0ccdbd2de6028471dfe39ed78e3f38859a96
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.6.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-10-19T20:51:59.061208591+02:00"
+    created: "2024-11-26T17:47:25.110315738+01:00"
     description: A Helm chart for Kubernetes
     digest: 6ad1ab0d5e1793c253190a776af639ee16b609ca4e532ce4111cacce3cc5ca43
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.5.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-10-19T20:51:59.059029983+02:00"
+    created: "2024-11-26T17:47:25.106710692+01:00"
     description: A Helm chart for Kubernetes
     digest: be374aecbb0b0babddc01279bbc4ce040fda4d71325b8156b44d6a0f6c468d78
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.4.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-10-19T20:51:59.057558275+02:00"
+    created: "2024-11-26T17:47:25.104960109+01:00"
     description: A Helm chart for Kubernetes
     digest: 1fe615f26166cafeb1203de719b88ed6b1955eff4201b4a260dc0325936e7365
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-10-19T20:51:59.056417749+02:00"
+    created: "2024-11-26T17:47:25.102735139+01:00"
     description: A Helm chart for Kubernetes
     digest: 7fd448ddde2490fb0b73c5cbbab047470b91948fc16ea6c95b75fcf2e3fcb2fd
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-10-19T20:51:59.055506108+02:00"
+    created: "2024-11-26T17:47:25.100729951+01:00"
     description: A Helm chart for Kubernetes
     digest: 3c60fd7a3b66c149c9ee54c168fdf48ba4d3e4a18c6871379751e06fcf62c1a4
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.054731252+02:00"
+    created: "2024-11-26T17:47:25.09901347+01:00"
     description: A Helm chart for Kubernetes
     digest: eea86c8c33c2ece16939f5ccd969755f0702b02d0c24437478c1377d9ea0a7a4
     name: nginx
     type: application
     urls:
-    - https://reinoudb.github.io/charts/nginx/nginx-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/nginx/nginx-0.1.0.tgz
     version: 0.1.0
   prometheus-borg-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.068161068+02:00"
+    created: "2024-11-26T17:47:25.114310959+01:00"
     description: A Helm chart for Kubernetes
     digest: d92b1af1ad92aef1db9b18b7b2ae377da1a9e01868130a29c9534e3ad098119b
     name: prometheus-borg-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/prometheus-borg-exporter/prometheus-borg-exporter-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/prometheus-borg-exporter/prometheus-borg-exporter-0.1.0.tgz
     version: 0.1.0
   qbittorrent:
   - apiVersion: v2
     appVersion: 4.6.5
-    created: "2024-10-19T20:51:59.071592704+02:00"
+    created: "2024-11-26T17:47:25.115812985+01:00"
     description: qbittorrent helm chart for Kubernetes
     digest: aca7a332e76b5eeed3157cdc2a6029a524807db727bdd5fe9a88518a6947e3bc
     kubeVersion: '>=1.23.0-0'
     name: qbittorrent
     type: application
     urls:
-    - https://reinoudb.github.io/charts/qbittorrent/qbittorrent-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/qbittorrent/qbittorrent-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 4.6.5
-    created: "2024-10-19T20:51:59.069704276+02:00"
+    created: "2024-11-26T17:47:25.115009801+01:00"
     description: qbittorrent helm chart for Kubernetes
     digest: 86294f8bb309a5ba639867c4cd7e46a65a34193e2725a49a0e22f5260a1e25b4
     kubeVersion: '>=1.23.0-0'
     name: qbittorrent
     type: application
     urls:
-    - https://reinoudb.github.io/charts/qbittorrent/qbittorrent-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/qbittorrent/qbittorrent-0.1.0.tgz
     version: 0.1.0
   qbittorrent-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.077807364+02:00"
+    created: "2024-11-26T17:47:25.118579178+01:00"
     description: A Helm chart for Kubernetes
     digest: 9b747c64e91b248962c790768c2633b1a258fdf611acc1c358fcfbb0bad6bf5d
     name: qbittorrent-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/qbittorrent-exporter/qbittorrent-exporter-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/qbittorrent-exporter/qbittorrent-exporter-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.07559528+02:00"
+    created: "2024-11-26T17:47:25.117616752+01:00"
     description: A Helm chart for Kubernetes
     digest: 141536447313826610a7518fff1c3b8c2daec90a4f7313b5735b76935505c133
     name: qbittorrent-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/qbittorrent-exporter/qbittorrent-exporter-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/qbittorrent-exporter/qbittorrent-exporter-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.074016401+02:00"
+    created: "2024-11-26T17:47:25.116905672+01:00"
     description: A Helm chart for Kubernetes
     digest: 8876f912df612ace67d2b5b05d5809e2e24ee50ecb15a6a3726cd4f2313bc91f
     name: qbittorrent-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/qbittorrent-exporter/qbittorrent-exporter-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/qbittorrent-exporter/qbittorrent-exporter-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.072639422+02:00"
+    created: "2024-11-26T17:47:25.116292811+01:00"
     description: A Helm chart for Kubernetes
     digest: d9ae28bb797b3b68fbf72793af081cc3edecee273369b0a7b3860beacd384735
     name: qbittorrent-exporter
     type: application
     urls:
-    - https://reinoudb.github.io/charts/qbittorrent-exporter/qbittorrent-exporter-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/qbittorrent-exporter/qbittorrent-exporter-0.1.0.tgz
     version: 0.1.0
   searxng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.087765135+02:00"
+    created: "2024-11-26T17:47:25.124665671+01:00"
     description: A Helm chart for Kubernetes
     digest: 7ce3cf47358d2051dc15fab51438d651fe022105e0a4d83db177a148530a3e24
     name: searxng
     type: application
     urls:
-    - https://reinoudb.github.io/charts/searxng/searxng-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/searxng/searxng-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.081440905+02:00"
+    created: "2024-11-26T17:47:25.121635549+01:00"
     description: A Helm chart for Kubernetes
     digest: a75f7364de8a86e3a04f6679a5f16a6cfcedf083eb882edeb03ad648b9335e22
     name: searxng
     type: application
     urls:
-    - https://reinoudb.github.io/charts/searxng/searxng-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/searxng/searxng-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.080621778+02:00"
+    created: "2024-11-26T17:47:25.120854007+01:00"
     description: A Helm chart for Kubernetes
     digest: f0d36b71b77a71fd92a76252de668401b2268a98d79ac38083f67779e522e872
     name: searxng
     type: application
     urls:
-    - https://reinoudb.github.io/charts/searxng/searxng-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/searxng/searxng-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.07890531+02:00"
+    created: "2024-11-26T17:47:25.119947986+01:00"
     description: A Helm chart for Kubernetes
     digest: b4f90a8610fcd1cafd45166432687b6a0e5f2823f851891e6e427fcfcf143b34
     name: searxng
     type: application
     urls:
-    - https://reinoudb.github.io/charts/searxng/searxng-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/searxng/searxng-0.1.0.tgz
     version: 0.1.0
   tree-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.092431435+02:00"
+    created: "2024-11-26T17:47:25.129869985+01:00"
     description: A Helm chart for Kubernetes
     digest: 75c083bfa84929d8992689cc326d0c61519a153f550202614f5109ffcd31e909
     name: tree-app
     type: application
     urls:
-    - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.3.tgz
+    - https://github.com/reinoudb/charts/releases/download/tree-app/tree-app-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.091334488+02:00"
+    created: "2024-11-26T17:47:25.12730353+01:00"
     description: A Helm chart for Kubernetes
     digest: b044da991cf1e0844670e673e6c17b0fda65c75497408f13ba72576133c84d99
     name: tree-app
     type: application
     urls:
-    - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.2.tgz
+    - https://github.com/reinoudb/charts/releases/download/tree-app/tree-app-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.090430736+02:00"
+    created: "2024-11-26T17:47:25.126113757+01:00"
     description: A Helm chart for Kubernetes
     digest: 17d879461f3f40a1a6fc87d70b5a6c2cf147af1b451bcdc5a82abdbd50feee1b
     name: tree-app
     type: application
     urls:
-    - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.1.tgz
+    - https://github.com/reinoudb/charts/releases/download/tree-app/tree-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-19T20:51:59.088900509+02:00"
+    created: "2024-11-26T17:47:25.125200925+01:00"
     description: A Helm chart for Kubernetes
     digest: be06af9bdfd38f7b87ad37a7e374707a0a2d8598a6acf6b7cdc2ee77a516b096
     name: tree-app
     type: application
     urls:
-    - https://reinoudb.github.io/charts/tree-app/tree-app-0.1.0.tgz
+    - https://github.com/reinoudb/charts/releases/download/tree-app/tree-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-19T20:51:59.023023454+02:00"
+generated: "2024-11-26T17:47:25.067060884+01:00"
